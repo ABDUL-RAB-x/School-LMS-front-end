@@ -3,6 +3,17 @@
 React frontend for Scholaris, a school management system with separate **Admin**, **Teacher** and
 **Student** portals. It talks to the Scholaris REST API (Express + MongoDB).
 
+## Demo login
+
+Use these accounts to try each portal. Demo accounts sign in without an email code; deleting
+records, changing the password and changing settings are turned off.
+
+| Panel   | Login page       | Email                      | Password          |
+| ------- | ---------------- | -------------------------- | ----------------- |
+| Admin   | `/admin/login`   | `demo.admin@example.com`   | `DemoAdmin2026`   |
+| Teacher | `/teacher/login` | `demo.teacher@example.com` | `DemoTeacher2026` |
+| Student | `/student/login` | `demo.student@example.com` | `DemoStudent2026` |
+
 ## Features
 
 - **Sign-in** with password + 6-digit email code, per-portal login pages, forced password change
